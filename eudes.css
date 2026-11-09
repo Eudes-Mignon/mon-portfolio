@@ -6,6 +6,34 @@
 body{
     background-color:#fff; 
 }
+body {
+  background: white;
+  color: black;
+  transition: 0.3s;
+}
+body.dark {
+  background: #121212;
+  color: white;
+}
+#themeBtn {
+    background: transparent;
+    color:  #000000;
+    border: 2px solid  #4ce47a;
+    padding: 8px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s ease;
+    
+}
+
+#themeBtn:hover {
+    background:  #4ce47a;
+    color: rgb(255, 255, 255);
+    transform: scale(1.08);
+    transform: rotate(5deg);
+    
+}
 header{
     padding:20px 8%; 
 }
@@ -39,7 +67,8 @@ ul li{
 }
 ul li a{
     text-decoration: none;
-    color: #000;
+    font-weight: bold;
+    color: #000000;
     font-size: 18px;
     transition:0.5s;
 }
