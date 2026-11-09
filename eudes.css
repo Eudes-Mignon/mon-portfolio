@@ -6,34 +6,7 @@
 body{
     background-color:#fff; 
 }
-body {
-  background: white;
-  color: black;
-  transition: 0.3s;
-}
-body.dark {
-  background: #121212;
-  color: white;
-}
-#themeBtn {
-    background: transparent;
-    color:  #000000;
-    border: 2px solid  #4ce47a;
-    padding: 8px 25px;
-    border-radius: 50px;
-    cursor: pointer;
-    font-size: 14px;
-    transition: 0.3s ease;
-    
-}
 
-#themeBtn:hover {
-    background:  #4ce47a;
-    color: rgb(255, 255, 255);
-    transform: scale(1.08);
-    transform: rotate(5deg);
-    
-}
 header{
     padding:20px 8%; 
 }
@@ -46,6 +19,7 @@ header{
     align-items: center;
     width: 100%;
 }
+
 .logo{
     font-size: 30px;
     font-weight: bold;
@@ -83,6 +57,35 @@ ul li a:hover{
     width: 30%;
     display: flex;
     justify-content: flex-end;
+}
+.buttons {
+    margin-top: 25px;
+}
+
+.buttons button {
+    background: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 12px 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons button a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.buttons button:hover {
+    background: transparent;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
+
+.buttons button:hover a {
+    color: #007bff;
 }
 .btn{
     color: #000000;
